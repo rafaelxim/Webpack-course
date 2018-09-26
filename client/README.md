@@ -14,3 +14,7 @@ O papel de um loader
 Instalação e configuração de um loader
 
 
+Tentamos utilizar o parametro -p na definição de do script build-dev dentro de package.json, porém o uglifyjs não suporta o recente ECMA, para contornar, utilizamos o babili plugin webpack
+
+Um loader trabalha em cada arquivo, já um plugin trabalha no bundle já criado.
+

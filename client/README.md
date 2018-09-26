@@ -18,3 +18,4 @@ Tentamos utilizar o parametro -p na definição de do script build-dev dentro de
 
 Um loader trabalha em cada arquivo, já um plugin trabalha no bundle já criado.
 
+Fazendo com que a variavel de ambiente do node funcione no windows

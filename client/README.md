@@ -19,3 +19,20 @@ Tentamos utilizar o parametro -p na definição de do script build-dev dentro de
 Um loader trabalha em cada arquivo, já um plugin trabalha no bundle já criado.
 
 Fazendo com que a variavel de ambiente do node funcione no windows
+
+
+Neste capítulo 2 vimos:
+
+O efeito do parâmetro -p para o build de produção.
+A incompatibilidade do uglify com código que não sejam escritos em ECMASCRIPT 5.
+babili como plugin que ajuda no processo de minificação.
+pegadinhas na atribuição de variáveis de ambiente.
+o módulos cross-env para garantir compatibilidade do nosso npm script entre diferentes sistemas operacionais.
+
+
+Neste capítulo 3 vimos:
+
+O papel do Webpack Dev Server e suas vantagens como live reloading
+Como instalar o Webpack Dev Server através do npm
+A criação de um script para executar o servidor
+A importância da propriedade publicPath.
